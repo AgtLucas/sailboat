@@ -7,7 +7,9 @@ sensible Rails-like defaults.
 You can get started building apps with Sailboat by simply cloning the repo:
 ```
 $ git clone https://github.com/joshbeitler/sailboat <myapp>
-$ cd <myapp> && sails lift
+$ cd <myapp>
+$ npm install && bower install
+$ sails lift
 ```
 
 ## Features
