@@ -19,8 +19,8 @@ $ sails lift
 - Manual inclusion of stylesheets
 - Unit testing via Mocha
 - Write your app with CoffeeScript, Jade, Sass
-- Flexible authentication via Passport and passport-oauth
-- API key generation and two factor authentication with speakeasy
+- Flexible authentication via Passport and `passport-oauth`
+- API key generation and two factor authentication with `speakeasy`
 - Foundation 5, normalize.css, modernizr, jQuery
 - FontAwesome
 

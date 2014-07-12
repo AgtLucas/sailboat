@@ -6,4 +6,9 @@
 @import "vendor/fontawesome/scss/font-awesome";
 
 // Foundation 5
+@import "settings";
 @import "vendor/foundation/scss/foundation";
+
+// Partials
+@import "header";
+@import "footer";
