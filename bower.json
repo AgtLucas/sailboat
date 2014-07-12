@@ -1,0 +1,7 @@
+{
+  "name": "sailboat",
+  "dependencies": {
+    "fontawesome": "4.1.0",
+    "foundation": "zurb/bower-foundation"
+  }
+}

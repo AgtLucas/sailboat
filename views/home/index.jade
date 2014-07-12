@@ -1,0 +1,51 @@
+extends ../layout
+
+block styles
+  link(rel="stylesheet", href="//brick.a.ssl.fastly.net/Oswald:200,400,700")
+  style.
+    body {
+      padding: 100px;
+    }
+
+    h1, h2 {
+      font-family: "Oswald", sans-serif;  
+    }
+
+    h1 {
+      text-transform: uppercase;
+      font-weight: 700;
+      color: #D40D12;
+      font-size: 4em;
+    }
+
+    h2 {
+      color: #999;
+      font-weight: 200;
+    }
+
+    .button-bar {
+      margin-top: 25px;
+    }
+
+    .button {
+      font-family: "Oswald", sans-serif;  
+      font-weight: 400;
+    }
+
+block body
+  h1 You're riding on Sails
+  h2 
+    | Wow, that was easy. Ready to start building your app? Delete this view and
+    | get cranking, or check out the 
+    a(href="http://sailsjs.org/#!documentation") official docs
+  .button-bar
+    ul.button-group.rounded
+      li
+        a.small.button(href='http://sailsjs.org')
+          | sails
+      li
+        a.small.button(href='https://github.com/joshbeitler/sailboat')
+          | sailboat
+      li
+        a.small.button(href='https://twitter.com/joshbeitler')
+          | @joshbeitler

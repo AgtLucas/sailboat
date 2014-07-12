@@ -1,0 +1,18 @@
+doctype
+html
+  head
+    title= title
+
+    // Viewport mobile tag for sensible mobile support
+    meta(name="viewport",content="width=device-width, initial-scale=1, maximum-scale=1")
+
+    // Application styles
+    link(rel="stylesheet", href="/styles/global.css")
+    block styles
+
+  body
+    block body
+
+    script(type="text/javascript", src="/vendor/js/socket.io.js")
+    script(type="text/javascript", src="/vendor/js/sails.io.js")
+    script(type="text/javascript", src="/js/app.js")
