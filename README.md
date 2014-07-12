@@ -3,14 +3,18 @@
 A handy-dandy pre-made [Sails](http://sailsjs.org) application starter kit with
 sensible Rails-like defaults.
 
-### Getting Started
+## Getting Started
 You can get started building apps with Sailboat by simply cloning the repo:
 ```
 $ git clone https://github.com/joshbeitler/sailboat <myapp>
 $ cd <myapp> && sails lift
 ```
 
-### Features
+## Features
+- Bower support
+- Automatic template and script inclusion (`assets/templates/` and `assets/js/`)
+- Manual inclusion of vender files
+- Manual inclusion of stylesheets
 - Unit testing via Mocha
 - Write your app with CoffeeScript, Jade, Sass
 - Flexible authentication via Passport and passport-oauth
@@ -18,7 +22,14 @@ $ cd <myapp> && sails lift
 - Foundation 5, normalize.css, modernizr, jQuery
 - FontAwesome
 
-### License
+## Contributing
+1. Fork it [https://github.com/joshbeitler/sailboat/fork]()
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create a pull request for your changes
+
+## License
 ```
 Copyright 2014 Joshua Beitler
 
